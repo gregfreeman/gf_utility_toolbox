@@ -13,7 +13,7 @@ if fid>0
     fclose(fid);
     data=parse_json(str);
 else
-    error('cannot create %s',filename);
+    error('cannot load %s',filename);
 end
 
 
